@@ -727,6 +727,10 @@ footer span a:hover{
        {
            width:100%;
        }
+       .about .about-content .left img {
+        height: 250px;
+        width: 290px;
+    }
 }
 @media (max-width: 500px) {
 
