@@ -121,6 +121,7 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: 'ubuntu',sans-serif;   
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 93% 50%, 0 100%);
 }
 .home .max-width
 {
@@ -731,6 +732,21 @@ footer span a:hover{
         height: 250px;
         width: 317px;
     }
+    .navbar .logo a{
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+    }
+    .home
+{
+    display: flex;
+    background: darkslategray !important;
+    height: 100vh;
+    color: #fff;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 93% 50%, 0 100%);
+    min-height: 500px;
+    font-family: 'ubuntu',sans-serif;   
+}
 }
 @media (max-width: 500px) {
 
