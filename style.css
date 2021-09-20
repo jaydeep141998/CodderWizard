@@ -742,11 +742,7 @@ footer span a:hover{
     }
     .home .home-content a {
         font-size: 17px;
-        background: linear-gradient( 
-            135deg, #08d665 0%,#08d665 50%,#00eaff 51%,#08d665 71%,#000000 100%);
-        background-size: 400% 400%;
-    
-        animation: AnimationName 3s ease infinite;
+        
            
        }
        .services .serv-content .card ,
