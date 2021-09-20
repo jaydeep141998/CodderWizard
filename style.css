@@ -149,7 +149,16 @@ html{
 }
 .home .home-content a{
     display: inline-block;
+    
     background: #08d665;
+    
+    background: linear-gradient( 
+        135deg, #08d665 0%,#08d665 50%,#00eaff 51%,#08d665 71%,#000000 100%);
+    background-size: 400% 400%;
+
+    animation: AnimationName 3s ease infinite;
+    
+
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -157,6 +166,19 @@ html{
     border-radius: 6px;
     border: 2px solid #08d665;
     transition: all 0.3s ease;
+}
+@keyframes AnimationName
+{
+0% {
+    background-position: 0% 31%;
+}
+
+50% {
+    background-position: 100% 70%;
+}
+100% {
+    background-position: 0% 31%;
+}
 }
 .home .home-content a:hover
 {
@@ -719,7 +741,7 @@ footer span a:hover{
     
     }
     .home .home-content a {
-        font-size: 20px;
+        font-size: 17px;
         
            
        }
